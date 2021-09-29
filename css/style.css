@@ -12,7 +12,9 @@ body {
 	margin: 0 auto;
 	width: 800px;
 	padding: 0;
-	background: #ffffff url('../images/cat.jpg') repeat-x top;
+	background-image:url('../images/cat.jpg');
+	background-repeat: no-repeat;
+	background-color: #fff;
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
 	color: #333;
