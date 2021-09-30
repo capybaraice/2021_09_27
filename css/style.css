@@ -69,9 +69,9 @@ span.amp {
 
 #menu ul
 {
-font-size:0;
 display:inline;
 white-space: nowrap;
+letter-spacing: -8px;
 }
 
 #menu li
@@ -84,4 +84,5 @@ margin:3px;
 float:left;
 background:#3c3333;
 display:block;
+letter-spacing: normal;
 }
