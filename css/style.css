@@ -56,7 +56,9 @@ a:visited {
 
 /*header set*/
 #header {
-	background: rgb(158, 51, 51) url('../images/cat.jpg');
+	background: rgb(160 146 146) url('../images/cat.jpg');
+	background-size:contain;
+	height: 120px;
 }
 
 /*logo set*/
