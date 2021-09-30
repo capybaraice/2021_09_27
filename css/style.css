@@ -56,7 +56,7 @@ a:visited {
 
 /*header set*/
 #header {
-	background: #777 url('../images/cat.jpg');
+	background: rgb(158, 51, 51) url('../images/cat.jpg');
 }
 
 /*logo set*/
