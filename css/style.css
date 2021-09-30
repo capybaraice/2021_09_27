@@ -67,8 +67,9 @@ span.amp {
 
 }
 
-#menu
+#menu ul
 {
+font-size:0;
 display:inline;
 white-space: nowrap;
 }
