@@ -10,18 +10,23 @@ a little easier
 */
 body {
 	margin: 0 auto;
-	width: 800px;
+	width: 800px ;
 	padding: 0;
-	background-image:url('../images/cat.jpg');
-	background-size:800px,auto;
-	background-repeat: no-repeat;
-	background-position:top;
-	background-color: #fff;
+	background: #ffffff;
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
-	color: #333;
+	color: #3a2e2e;
+}
+#wrap {
+	clear: both;
+	margin: 0 auto;
+	padding: 10px;
+	width: 780px;
+	background: #fff;
+	border: 10px solid #777;
 }
 
+/*text set*/
 h1, h2, p, ul, li {
 	margin: 0;
 	padding: 0;
@@ -36,9 +41,10 @@ ul {
 	list-style-type: none;
 }
 
+/*link set*/
 a:link {
-	color: #fff;
-	background: #eee0;
+	color: #fffdfd;
+	text-decoration: none;
 }
 a:visited {
 	color: #ffffff;
@@ -46,42 +52,154 @@ a:visited {
 }
 
 /* This rule adds a nice style to our ampersands */
-span.amp {
-	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
-	font-weight: normal;
-	font-style: italic;
+
+
+/*header set*/
+#header {
+	background: #777 url('../image/headerimg.jpg');
+	height: 120px;
 }
-#logo{
+
+/*logo set*/
+#logo h1 {
+	font-size: 3em;
+	margin: 0 0 0 0;
+	padding-top: 10px;
+	padding-left: 10px;
+	text-align: left;
+	color:rgb(34, 34, 34);
+	
+}
+#logo h2 {
+	font-size: 1.5em;
+	margin: 0 0 0 0;
+	padding-left: 10px;
+	padding-top: 3px;
+	text-align: left;
+	color:#fff;
+}
+#black{
+	color:#000;
+}
+
+/*menu set*/
+#menu {
+	background:linear-gradient(#666,#000);
+	float: center;
+	margin: 5px 0 0 0;
+	font-size: 1.4em;
+	text-align: center;
+}
+
+ 
+#menu li {
+	display: inline-block;
+	margin: 0 0 0 0;
+	padding: 10px 30px 10px 30px;
+}
+
+#menu li:hover{
+	background:linear-gradient(#000,#555);
+	text-decoration: underline;
+}
+
+
+#menu li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#homeda{
+	background:linear-gradient(#000,#555);
+	text-decoration: underline;
+}
+
+/*right article set*/
+#right {
+	float: right;
+	width: 500px;
+	margin: 0 0 0 0;
+	padding: 10px;
+}
+
+#right h1 {
 	font-size: 2.4em;
-}
- #black{
-	color: rgb(0, 0, 0);
- }
- #white{
-	color: rgb(255, 255, 255);
- }
-
-#header h2{
-	font-size: 1em;
-	color: rgb(255, 255, 255);
-
+	margin: 0 0 10px 0;
 }
 
-#menu ul
-{
-display:inline;
-white-space: nowrap;
-letter-spacing: -8px;
+#right h2{
+	font-size: 1.5em;
+	margin: 0 0 10px 0;
 }
 
-#menu li
-{
-line-height: 40px;
-text-align:center;
-width:100px;
-height:40px;
-margin:3px;
-float:left;
-background:#3c3333;
-letter-spacing: normal;
+#right p{
+	margin: 0 0 10px 0;
+}
+
+#right h3{
+	font-size: 1.4em;
+	text-align: right;
+	margin: 0 0 10px 0;
+	color: #447bce;
+}
+
+#right a{
+	color: #777;
+}
+
+/*left article set*/
+#left{
+	float: left;
+	width: 240px;
+	margin: 0 0 0 0;
+	padding: 10px;
+}
+
+#left h2{
+	padding:10px;
+	background:linear-gradient(#fff,#000);
+	color:#fff;
+	border: 3px #666 solid;
+	border-radius: 13px;
+}
+
+#leftborder{
+	padding:0.5px;
+	border: 3px #666 solid;
+	border-radius: 12.5px;
+}
+
+#leftup{
+	padding: 10px 0 10px 0;
+}
+
+#leftup a{
+	color: #333;
+	text-decoration:underline;
+}
+
+#leftdown{
+	padding: 10px 0 10px 0;
+}
+
+#leftdown h2{
+	color: #000;
+	background: none;
+	padding: 20px 0 0 0;
+	border: none;
+}
+
+#leftdown a{
+	color: #333;
+	text-decoration:underline;
+}
+
+/*footer set*/
+#footer {
+	clear: both;
+	background: linear-gradient(#000,#777);
+	padding: 30px 0 10px 0;
+	border-top: 2px solid #ddd;
+	text-align: center;
+	color: #fff;
 }
