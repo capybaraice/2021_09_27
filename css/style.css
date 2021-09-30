@@ -13,9 +13,7 @@ body {
 	width: 800px;
 	padding: 0;
 	background-image:url('../images/cat.jpg');
-	background-size:800px,auto;
 	background-repeat: no-repeat;
-	background-position:top;
 	background-color: #fff;
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
@@ -37,11 +35,11 @@ ul {
 }
 
 a:link {
-	color: #fff;
-	background: #eee0;
+	color: #333;
+	background: #eee;
 }
 a:visited {
-	color: #ffffff;
+	color: #ff0000;
 	background: #eee;
 }
 
@@ -65,23 +63,5 @@ span.amp {
 	font-size: 1em;
 	color: rgb(255, 255, 255);
 
-}
-
-#menu
-{
-display:inline;
-white-space: nowrap;
-}
-
-#menu li
-{
-line-height: 40px;
-text-align:center;
-width:100px;
-height:40px;
-margin:3px;
-float:left;
-background:#3c3333;
-display:block;
 }
 
